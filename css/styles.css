@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', serif;
+  color: #66bfbf;
+}
+h2 {
+  font-family: 'Montserrat', serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Montserrat', serif;
+  color: #11999E;
+  font-weight: bold;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+hr {
+  margin: 100px auto;
+  border: none;
+  width: 5%;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+}
+.profile {
+  margin: 50px auto;
+  width: 30%;
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me {
+  line-height: 2;
+  margin: 100px auto 50px auto;
+}
+.contact-desc {
+  margin: auto;
+  width: 30%
+}
+.cat-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.kitty-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+
+}
+.bottom-container{
+font-family: 'Montserrat', serif;
+background-color: #66BFBF;
+height: 150px;
+margin: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+.BUTTON_TYS {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 1px 20px;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px;
+}
+.footer-link {
+  position: relative;
+  top: 30px;
+  margin: 20px;
+}
+.copy {
+  color: #EAF6F6;
+  position: relative;
+  top: 50px;
+}
